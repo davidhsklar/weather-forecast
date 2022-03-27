@@ -1,0 +1,33 @@
+.search-column {
+    background-color: white;
+}
+
+.list-group-item {
+    line-height: 0.5;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-body {
+    flex:auto;
+    background-color: blue;
+}
+
+span.warning {
+    padding: 3px;
+    background-color: red;
+    color:white;
+}
+
+span.middle {
+    padding: 3px;
+    background-color: brown;
+    color: white;
+}
+
+span.lovely {
+    padding: 3px;
+    background-color: green;
+    color:white;
+}
+
+
