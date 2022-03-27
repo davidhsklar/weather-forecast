@@ -1,33 +1,43 @@
+body {
+background-color: CornflowerBlue;
+}
+
+.search-column h2 {
+color: blanchedalmond;
+}
+
 .search-column {
-    background-color: white;
+    background-color: cornflowerblue;
 }
 
 .list-group-item {
     line-height: 0.5;
     border: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+    background-color: cornflowerblue;
 }
 .card-body {
     flex:auto;
-    background-color: blue;
+    background-color: powderblue;
+    color:Blue;
+    font-weight: bold;
 }
 
 span.warning {
     padding: 3px;
-    background-color: red;
+    background-color: black;
     color:white;
 }
 
 span.middle {
     padding: 3px;
-    background-color: brown;
+    background-color: red;
     color: white;
 }
 
 span.lovely {
     padding: 3px;
-    background-color: green;
+    background-color: lightgreen;
     color:white;
 }
-
-

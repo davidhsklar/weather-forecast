@@ -178,7 +178,7 @@ var get5Day = function (city) {
     forecastEl.appendChild(forecastHum);
 
     //append to five day container
-    forecastContainer.appendChild(forecast);
+    forecastContainer.append(forecastEl);
     
   }
 };
@@ -186,13 +186,13 @@ var get5Day = function (city) {
 var pastSearch = function (pastSearch) {
  
 
-  pastSearch1 = document.createElement("button");
-  pastSearch.textContent = pastSearch;
+  pastSearchCity = document.createElement("button");
+  pastSearchCity.textContent = pastSearch;
   pastSearchclassList = "d-flex w-100 btn-light border p-2";
-  pastSearch1.setAttribute("data-city", pastSearch);
-  pastSearch1.setAttribute("type", "submit");
+  pastSearchCity.setAttribute("data-city", pastSearch);
+  pastSearchCity.setAttribute("type", "submit");
 
-  pastSearchButton.prepend(pastSearch);
+  pastSearchButton.prepend(pastSearchCity);
 };
 
 var pastSearchHandler = function (event) {
@@ -203,7 +203,6 @@ var pastSearchHandler = function (event) {
   }
 };
 
-// pastSearch();
 
 cityForm.addEventListener("submit", formSumbitHandler);
 pastSearchButton.addEventListener("click", pastSearchHandler);
